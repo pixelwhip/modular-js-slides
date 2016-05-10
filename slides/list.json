@@ -24,13 +24,13 @@
         }
     },
     {
-        "filename": "02-Overview/history.md",
+        "filename": "02-Overview/history-growth.md",
         "attr": {
             "data-background": "resources/img/modjs_Diaganol.svg"
         }
     },
     {
-        "filename": "02-Overview/history-growth.md",
+        "filename": "02-Overview/history.md",
         "attr": {
             "data-background": "resources/img/modjs_Diaganol.svg"
         }
@@ -43,24 +43,6 @@
     },
     {
         "filename": "02-Overview/history-npm.md",
-        "attr": {
-            "data-state": ""
-        }
-    },
-    {
-        "filename": "02-Overview/many-scripts.md",
-        "attr": {
-            "data-background": "resources/img/modjs_Stripe.svg"
-        }
-    },
-    {
-        "filename": "02-Overview/bummers.md",
-        "attr": {
-            "data-state": ""
-        }
-    },
-    {
-        "filename": "02-Overview/drupal-aggregation.md",
         "attr": {
             "data-state": ""
         }
@@ -80,6 +62,13 @@
         "filename": "03-Modules/goals.md",
         "attr": {
             "data-background": "resources/img/modjs_Diaganol.svg"
+        }
+    },
+    {
+        "filename": "03-Modules/modules-export.md",
+        "attr": {
+            "data-state": "state--dark",
+            "data-background": "#323133"
         }
     },
     {
@@ -249,6 +238,11 @@
     },
     {
         "filename": "06-Drupal/drupal-bundle.html",
+        "attr": {
+        }
+    },
+    {
+        "filename": "06-Drupal/drupal-libraries.html",
         "attr": {
         }
     },
