@@ -1,0 +1,483 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+
+        <title>Writing Modular JS with Browserify</title>
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+        <link rel="stylesheet" href="bower_components/reveal.js/css/reveal.css">
+
+        <link rel="stylesheet" href="css/theme.css" id="theme">
+
+
+        <!-- For syntax highlighting -->
+        <!-- <link rel="stylesheet" href="bower_components/highlightjs/styles/zenburn.css"> -->
+        <link rel="stylesheet" href="bower_components/highlightjs/styles/github-gist.css">
+
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,900italic,700italic,900,700,500italic,500,400italic,300italic,300' rel='stylesheet' type='text/css'>
+
+
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? 'bower_components/reveal.js/css/print/pdf.css' : 'bower_components/reveal.js/css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src="bower_components/reveal.js/lib/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+
+        <div class="reveal">
+
+            <div class="slides">
+
+                
+                    
+                        
+    <section  data-markdown="slides/01-Intro/title.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="resources/img/modjs_Diaganol-Single.svg" data-html="slides/01-Intro/john-ferris.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section  data-html="slides/01-Intro/aten.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section  data-markdown="slides/01-Intro/aten-clients.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-state="state--dark" data-background="#323133" data-markdown="slides/02-Overview/more-js.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="resources/img/modjs_Diaganol.svg" data-markdown="slides/02-Overview/history.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="resources/img/modjs_Diaganol.svg" data-markdown="slides/02-Overview/history-growth.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="resources/img/modjs_Diaganol.svg" data-markdown="slides/02-Overview/history-reasons.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-state="" data-markdown="slides/02-Overview/history-npm.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="resources/img/modjs_Stripe.svg" data-markdown="slides/02-Overview/many-scripts.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-state="" data-markdown="slides/02-Overview/bummers.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-state="" data-markdown="slides/02-Overview/drupal-aggregation.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-state="state--gold" data-background="resources/img/modjs_Diaganol-Gold.svg" data-html="slides/03-Modules/js-modules.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section  data-html="slides/03-Modules/modules-as-books.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="resources/img/modjs_Diaganol.svg" data-markdown="slides/03-Modules/goals.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section  data-html="slides/03-Modules/module-formats.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section  data-html="slides/03-Modules/amd.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section  data-html="slides/03-Modules/common-js.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section  data-html="slides/03-Modules/es6-modules.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section  data-html="slides/03-Modules/es6-modules-default.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-state="state--gold" data-background="resources/img/modjs_Diaganol-Gold.svg" data-html="slides/04-Bundlers/js-bundlers.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="resources/img/modjs_Diaganol.svg" data-html="slides/04-Bundlers/js-bundlers-overview.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/04-Bundlers/bundler-glossary.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/04-Bundlers/js-bundlers-examples.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="resources/img/modjs_Diaganol.svg" data-html="slides/04-Bundlers/browserify.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section  data-html="slides/04-Bundlers/browserify-usage-global.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section  data-html="slides/04-Bundlers/browserify-usage-local.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section  data-html="slides/04-Bundlers/browserify-usage-api.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section  data-html="slides/04-Bundlers/browsernizr.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section  data-html="slides/04-Bundlers/lodash.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section  data-html="slides/04-Bundlers/lodash-specific.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section  data-html="slides/04-Bundlers/browserify-shim.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-state="state--gold" data-background="resources/img/modjs_Diaganol-Gold.svg" data-html="slides/05-Transpilers/transforms.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section  data-html="slides/05-Transpilers/transpiler-before.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section  data-html="slides/05-Transpilers/transpiler-after.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section  data-html="slides/05-Transpilers/nunjucksify.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section  data-html="slides/05-Transpilers/nunjucksify-result.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section  data-html="slides/05-Transpilers/transforms-usage-package.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section  data-html="slides/05-Transpilers/transforms-usage.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section  data-html="slides/05-Transpilers/transforms-usage-api.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section  data-html="slides/05-Transpilers/transforms-babelify.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section  data-html="slides/05-Transpilers/factor-bundle-files.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section  data-html="slides/05-Transpilers/factor-bundle-graph.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section  data-html="slides/05-Transpilers/factor-bundle.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section  data-html="slides/05-Transpilers/watchify.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-state="state--gold" data-background="resources/img/modjs_Diaganol-Gold.svg" data-html="slides/06-Drupal/drupal.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section  data-html="slides/06-Drupal/drupal-scaffold.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section  data-html="slides/06-Drupal/drupal-package.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section  data-html="slides/06-Drupal/drupal-bundle.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-state="state--dark" data-background="#323133" data-html="slides/07-Conclusion/end.html"></section>
+
+
+                    
+                    
+                
+            </div>
+
+        </div>
+
+        <script src="bower_components/reveal.js/lib/js/head.min.js"></script>
+        <script src="bower_components/reveal.js/js/reveal.js"></script>
+        <script>
+
+          // Full list of configuration options available at:
+          // https://github.com/hakimel/reveal.js#configuration
+          Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+            width: 1280,
+            height: 720,
+            margin: 0.16,
+
+            transition: 'fade', // none/fade/slide/convex/concave/zoom
+
+            // Optional reveal.js plugins
+            dependencies: [
+              { src: 'bower_components/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+              { src: 'bower_components/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+              { src: 'bower_components/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+              { src: 'bower_components/reveal.js/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( '[data-html]' ) || !!document.querySelector( 'pre code' ) || !!document.querySelector( '[data-markdown]' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+              { src: 'bower_components/reveal.js/plugin/zoom-js/zoom.js', async: true },
+              { src: 'bower_components/reveal.js/plugin/notes/notes.js', async: true },
+              { src: 'js/loadhtmlslides.js', condition: function() { return !!document.querySelector( '[data-html]' ); } }
+            ]
+          });
+
+        </script>
+    </body>
+
+</html>
