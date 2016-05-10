@@ -1,12 +1,12 @@
 ## Turn of the decade
 
 <div class="timeline">
-  <h4>2009</h4>
+  <h3>2009</h3>
   <dl>
     <dt>August</dt>
     <dd>Node.js released</dd>
   </dl>
-  <h4>2010</h4>
+  <h3>2010</h3>
   <dl>
     <dt>January</dt>
     <dd>NPM released</dd>
@@ -22,14 +22,15 @@
 </div>
 
 <aside class="notes">
-  jQuery released August 2006
-  iPhone released June 2007
-  Node released in May 2009
-  NPM released January 2010
-  Steve Jobs dogs flash in an open letter April 2010
-  Ethan Marcotte's Responsive Web Design May 2010
-  Backbone.js released October 2010
-  Angular released October 2010
-  Ember released December 2011
-  React released March 2013
+  npm and node showed that Javascript was not a language limited to browsers.
+  Steve Jobs killed flash 3 yrs after the intitial iPhone was shipped.
+  Ethan Marcotte put forth the idea that websites could/should work as well on phones as they did on desktops. While using JS to do so wasn't part of his original post, it has become an essential tool in tayloring a single experience for devices of varying sizes and capabilities
+
+  Backbone and Angular sparked championed the idea of Single Page Apps, in which routing and other native browser behaviors now became the responsibility of JS.
+
+  jQuery : August 2006
+  iPhone : June 2007
+
+  Ember : December 2011
+  React : March 2013
 </aside>

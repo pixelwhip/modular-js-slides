@@ -6,10 +6,16 @@
       <h4 class="filename">build.js</h4>
       <pre class="javascript"><code>var fs = require('fs');
 var browserify = require('browserify');
+
+// Create an instance of browserify.
 var b = browserify();
 
+// Add an entry file.
 b.add('entry.js');
+
+// Bundle entry.js and all its dependencies.
 b.bundle()
+  // Write the output to disk.
   .pipe(fs.createWriteStream('bundle.js')
 );
           </code></pre>

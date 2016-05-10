@@ -3,9 +3,7 @@
 <script type="text/javascript" src="/scripts/jquery.once.js"></script>
 <script type="text/javascript" src="/scripts/jquery.ui.js"></script>
 <script type="text/javascript" src="/scripts/drupal.js"></script>
-<script type="text/javascript" src="/scripts/apachesolr_sort.js"></script>
 <script type="text/javascript" src="/scripts/remodal.js"></script>
-<script type="text/javascript" src="/scripts/twitter.js"></script>
 <script type="text/javascript" src="/scripts/social_tracking.js"></script>
 <script type="text/javascript" src="/scripts/main.js"></script>
 <script type="text/javascript" src="/scripts/picturefill.min.js"></script>

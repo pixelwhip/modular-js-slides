@@ -615,7 +615,9 @@ body {
   text-align: center;
   margin-top: 2em; }
 
-.reveal .timeline h4 {
+.reveal .timeline h4,
+.reveal .timeline h3 {
+  color: #F7AA0A;
   flex-basis: 100%; }
 
 .reveal .timeline dl {
@@ -627,7 +629,8 @@ body {
 
 .reveal .timeline dt {
   flex-basis: 20%;
-  margin-bottom: .25em; }
+  margin-bottom: .25em;
+  font-weight: 900; }
 
 .reveal .timeline dd {
   margin-bottom: .25em;

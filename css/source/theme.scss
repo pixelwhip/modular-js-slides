@@ -483,7 +483,9 @@ figcaption {
 
 .timeline {
 
-  h4 {
+  h4,
+  h3 {
+    color: $gold;
     flex-basis: 100%;
   }
 
@@ -498,6 +500,7 @@ figcaption {
   dt {
     flex-basis: 20%;
     margin-bottom: .25em;
+    font-weight: 900;
   }
 
   dd {
