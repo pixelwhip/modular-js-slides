@@ -1,0 +1,32 @@
+{
+  "name": "browserify-examples",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "grunt test",
+    "basic": "browserify basic/src/entry.js > basic/build/basic.js",
+    "ignore": "browserify -i basic/src/depC.js basic/src/entry.js > basic/build/ignore.js",
+    "exclude": "browserify -u basic/src/depC.js basic/src/entry.js > basic/build/exclude.js",
+    "external": "browserify -x basic/src/depC.js basic/src/entry.js > basic/build/external.js",
+    "nunjucks": "browserify -t nunjucksify nunjucks/src/entry.js > nunjucks/build/nunjucks.js",
+    "code-splitting": "browserify code-splitting/src/entryA.js code-splitting/src/entryB.js -p [ factor-bundle -o code-splitting/build/bundleA.js -o code-splitting/build/bundleB.js] -o code-splitting/build/common.js",
+    "api": "node api/index"
+  },
+  "bugs": {
+    "url": "https://github.com/pixelwhip/modular-js-browserify/issues"
+  },
+  "description": "Supporting Examples for Modular Javascript eith Browserify",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "browserify": "^13.0.0",
+    "nunjucksify": "^0.2.3"
+  },
+  "author": "John Ferris",
+  "license": "ISC",
+  "browser": {
+    "nunjucks": "nunjucks/browser/nunjucks-slim"
+  }
+}

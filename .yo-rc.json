@@ -1,0 +1,10 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Writing Modular JS with Browserify",
+    "packageVersion": "1.0.0",
+    "useSass": true,
+    "deployToGithubPages": true,
+    "githubUsername": "pixelwhip",
+    "githubRepository": "modular-js-browserify"
+  }
+}
